@@ -20,8 +20,7 @@ function o_gravatar_cdn($url){
 add_filter('get_avatar_url', 'o_gravatar_cdn');
 
 function child_css() {
-	$url = get_stylesheet_directory_uri();
-	echo "<link rel=stylesheet id=\"orangii-style\" href=\"$url/style.css\" type=\"text/css\" media=\"all\">";
+	echo "<link rel=stylesheet id=\"orangii-style\" href=\"https://cdn.jsdelivr.net/gh/Jiaocz/argon-orange@main/style.css\" type=\"text/css\" media=\"all\">";
 }
 add_action('wp_head', 'child_css');
 
