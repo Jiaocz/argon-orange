@@ -1,0 +1,35 @@
+/*
+Theme Name:	Argon Orange
+Theme URI:	https://blog.orangii.cn/
+Description:	Child theme for argon to change functions separately.
+Author:		Orangii
+Author URI:	https://orangii.cn/
+Template:		argon
+Version:		0.6.1
+*/
+
+.post-content .wp-block-image div{
+	width: 100%;
+}
+
+.post-content .wp-block-image div > img{
+	max-width: 100%;
+}
+
+.mf-widget-powered {
+	display: none;
+}
+
+a.external::after {
+  content: '\f08e';
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: auto 0.3em;
+}
+
+pre.hljs-codeblock .hljs-control {
+	opacity: 0.1;
+}
